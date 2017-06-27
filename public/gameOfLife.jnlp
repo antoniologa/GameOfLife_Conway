@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="6.0+"
+  codebase="https://antoniogarnier.github.io/GameOfLife_Conway/public"
+  href="gameOfLife.jnlp">
+  <information>
+    <title>Tiro Parabolico</title>
+    <vendor>Antonio Garnier</vendor>
+  </information>
+  <resources>
+      <!-- Application Resources -->
+      <j2se version="1.7+"
+            href="http://java.sun.com/products/autodl/j2se"/>
+      <jar href="gameOfLife.jar" main="true" />
+
+  </resources>
+  <application-desc
+       name="Game Of Life"
+       main-class="ControladorGameOfLife">
+   </application-desc>
+   <update check="background"/>
+</jnlp>
